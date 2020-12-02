@@ -1,4 +1,4 @@
-Advent of Code[About][Events][Shop][Settings][Log Out]@anericod 2*
+Advent of Code[About][Events][Shop][Settings][Log Out]
           2018[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
 Clubhouse - The first project management platform for software development that brings everyone on every team together to build better products. AoC participants get two free months by signing up at r.clbh.se/mze9q9P Also, we're hiring!
