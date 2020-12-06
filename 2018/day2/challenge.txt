@@ -1,4 +1,4 @@
-Advent of Code[About][Events][Shop][Settings][Log Out]@anericod 3*
+Advent of Code[About][Events][Shop][Settings][Log Out]
         //2018[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
 COINiD - New open-source cryptocurrency wallet with cold storage support!
