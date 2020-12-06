@@ -37,11 +37,11 @@ def check_seat_id p
     return (row * 8) + col
 end
 
-def check_highest dt
+def check_missing dt
     seats = dt.map do |d|
         check_seat_id(d)
     end
-    (11..850).to_a - seats
+    (seats.min..seats.max).to_a - seats
 end
 
-puts check_highest data
+puts check_missing data
