@@ -2,7 +2,6 @@ require 'set'
 
 data = File.readlines("#{__dir__}/data.txt")
 
-
 def colours_hash d
     d.map do |l|
         color = l.split[0..1].join(' ')

@@ -1,8 +1,4 @@
-require 'set'
-
-
 data = File.readlines("#{__dir__}/data.txt")
-
 
 def colours_hash d
     d.filter_map do |l|
@@ -16,7 +12,6 @@ def colours_hash d
     end
 end
 
-tot = 0
 def find_bags search, hs
     res = hs.filter_map do |f| 
         f[1] if f[0] == search
@@ -24,7 +19,7 @@ def find_bags search, hs
     return res
 end
 
-def sss sum, init, hd
+def search_data sum, init, hd
     tot = []
     while init.size > 0 
         t = init.shift
@@ -40,10 +35,9 @@ end
 
 def find_shiny_gold dt
     hash = colours_hash dt
-    res = sss 0, [['shiny gold', 1]], hash 
+    res = search_data 0, [['shiny gold', 1]], hash 
     # Exclude the outer shiny gold bag from count
     return res - 1
 end
 
 puts find_shiny_gold data
-
