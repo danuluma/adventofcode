@@ -11,7 +11,6 @@ def ss data
 
     while true
         res = buses.map { |i,j| (start + j) % i == 0}.all? true
-
         if res == true
             return start - buses2[0][1]
             exit
